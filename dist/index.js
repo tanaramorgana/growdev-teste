@@ -15,7 +15,6 @@ app.get("/", (request, response) => {
   return response.send("ok");
 });
 
-const port = process.env.PORT || 8080;
-app.listen(port, () => {
+app.listen(8080, () => {
   console.log("API rodando...");
 });
